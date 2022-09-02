@@ -18,6 +18,12 @@ const handleUserInput = function (key) {
     case 'd':
       connection.write('Move: right');
       break;
+    case '1':
+      connection.write('Say: Hello');
+      break;
+    case '2':
+      connection.write('Say: goodbye');
+      break;
     default:
      console.log('invalid key pressed');
   };
